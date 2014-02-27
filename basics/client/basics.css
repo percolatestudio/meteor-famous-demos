@@ -1,0 +1,27 @@
+.test-surface, .details, .none {
+  background-color: #EBEBF1;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  -webkit-user-select: none;
+  font-size: 18px;
+  border-bottom: 1px solid gray;
+}
+
+.player {
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+}
+
+.player.selected {
+  background-color: #73CFFF;
+}
+
+.footer, .details, .none {
+  background-color: white;
+  border-bottom: none;
+}
+
+.details, .none {
+  padding-left: 10px;
+}
