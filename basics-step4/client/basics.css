@@ -1,0 +1,16 @@
+.test-surface {
+  background-color: #EBEBF1;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  padding: 20px;
+  -webkit-user-select: none;
+  font-size: 18px;
+}
+
+/* hacky way to stripe the odd surfaces */
+.test-surface.n1, .test-surface.n3, .test-surface.n5,
+.test-surface.n7, .test-surface.n9, .test-surface.n11,
+.test-surface.n13, .test-surface.n15, .test-surface.n17,
+.test-surface.n19 {
+  background-color: #f8f8f8;
+}
