@@ -3,6 +3,8 @@ meteor-famous-demos
 
 This is the code for some of the Meteor-Famous stuff I demoed in a recent devshop talk with Dave Fetterman.
 
+The subdirectories (except for meteor-famous) are all Meteor apps (run them with `meteor`)
+
 ### ./basics-step1-6
 These are the demos I walked through on stage. *Note* that the obfuscated famo.us library that I'm using has an issue in step6 that wasn't present in the version I was using to demo. Namely, it appears that Meteor's event handlers 
 aren't always getting hooked up. Hit refresh on the page several times to work
