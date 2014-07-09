@@ -1,9 +1,21 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * Owner: mark@famo.us
+ * @license MPL 2.0
+ * @copyright Famous Industries, Inc. 2014
+ */
+
+
 html {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
 
 body {
@@ -12,7 +24,6 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    font-family: Helvetica, sans-serif;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     -webkit-font-smoothing: antialiased;
@@ -22,7 +33,7 @@ body {
     overflow: hidden;
 }
 
-.famous-container, .famous-container-surface, .famous-group {
+.famous-container, .famous-group {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -42,6 +53,7 @@ body {
     margin: 0px;
     padding: 0px;
     -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
 
 .famous-surface {
@@ -51,9 +63,15 @@ body {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-transform-style: flat;
-    transform-style: flat;
+    transform-style: preserve-3d; /* performance */
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     pointer-events: auto;
+}
+
+.famous-container-group {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
