@@ -1,7 +1,14 @@
 meteor-famous-demos
 ===================
 
-This is the code for some of the Meteor-Famous stuff I demoed in a recent devshop talk with Dave Fetterman.
+## Caveat:
+
+This is the code for some of the Meteor-Famous stuff I demoed in a recent 
+devshop talk with Dave Fetterman. It's now way way out of date and I'm just 
+leaving it online for historical purposes. A more upto date version of the
+leaderboard demo can be found [here](https://github.com/zol/meteor-famous-leaderboard) 
+
+### Demos
 
 The subdirectories (except for meteor-famous) are all Meteor apps (run them with `meteor`)
 
