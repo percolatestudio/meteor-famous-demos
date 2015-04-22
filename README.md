@@ -22,3 +22,7 @@ The todos app hooked up to a Famous surface driven by physics. Again, there is a
 
 ### ./meteor-famous
 A simple and rough Meteor package that loads in the obfuscated famous library.
+
+## License 
+
+MIT. (c) Percolate Studio, maintained by Zoltan Olah (@zol).
